@@ -1,6 +1,51 @@
-[class*='__container'] {
+.container {
   max-width: 1160px;
   width: 100%;
   margin: auto;
   padding: 0px 15px;
+}
+h1,
+h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--h2-text-color);
+}
+h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: var(--h3-text-color);
+}
+h3 span {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 68px;
+  color: var(--span-text-color);
+  height: 68px;
+  left: 73.26%;
+  right: 16.84%;
+  top: 12.5px;
+}
+p {
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+.button {
+  background-color: var(--span-text-color);
+  padding: 20px 37px;
+  height: 62px;
+  width: 201px;
+  color: var(--button-text-color);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }

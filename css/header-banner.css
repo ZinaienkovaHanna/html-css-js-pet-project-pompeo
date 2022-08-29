@@ -1,0 +1,31 @@
+.background__banner {
+  background-image: url(../img/background-banner.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 100vh;
+}
+
+.background__banner .container {
+  display: flex;
+}
+h1 {
+  padding-top: 180px;
+}
+.banner__content h3 {
+  margin-top: -8px;
+}
+.banner__content p {
+  padding-top: 14px;
+  padding: 14px 0px 51px 0px;
+}
+.banner__content p {
+  font-size: 16px;
+  line-height: 26px;
+}
+.banner__content {
+  flex: 0 1 45%;
+}
+.banner__image {
+  flex: 0 1 55%;
+  margin-top: 144px;
+}
