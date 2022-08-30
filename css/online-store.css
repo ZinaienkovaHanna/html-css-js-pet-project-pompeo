@@ -1,4 +1,6 @@
-.online-store {
+.online-store__cards {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .online-store__title {
@@ -31,7 +33,7 @@
 .card__button {
   margin-bottom: 20px;
 }
-@media (min-width: 992px) {
+@media (min-width: 820px) {
   .online-store__cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
