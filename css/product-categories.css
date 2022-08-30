@@ -47,8 +47,15 @@
 .description__text {
   padding: 30px 0px;
 }
+.description__text h3 {
+  font-size: 29px;
+  line-height: 36px;
+}
 .description__text p {
   padding-top: 16px;
+}
+.product-categories__description {
+  padding-bottom: 60px;
 }
 @media (min-width: 992px) {
   .product-categories__description {
@@ -64,77 +71,5 @@
   .product-categories__description {
     display: flex;
     gap: 132px;
-  }
-}
-.product-categories__details .container {
-  max-height: 1032px;
-  max-width: 1160px;
-}
-.product-categories__details hr {
-  border-top: 1px solid var(--vertical-line-color);
-}
-.gold-pottery__background {
-  height: 220px;
-  width: 500px;
-  background-color: var(--background-color);
-  margin-top: 220px;
-}
-.orange-ceramic__background {
-  height: 220px;
-  width: 500px;
-  background-color: var(--background-color);
-  margin-top: 85px;
-}
-
-.gold-pottery__image img {
-  width: 250px;
-  height: 509px;
-  margin-top: -365px;
-  margin-left: 125px;
-}
-.gold-pottery__description p,
-.orange-ceramic__description p {
-  padding: 20px 0px;
-}
-.gold-pottery__description h3,
-.orange-ceramic__description h3 {
-  font-size: 24px;
-  line-height: 34px;
-}
-.orange-ceramic__image img {
-  width: 350px;
-  height: 417px;
-  margin-top: -319px;
-  margin-left: 75px;
-}
-.product-categories__details a {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  color: var(--h3-text-color);
-}
-.product-categories__details a:hover {
-  text-decoration: underline;
-  color: var(--span-text-color);
-}
-@media (min-width: 992px) {
-  .details__gold-pottery {
-    display: flex;
-    justify-content: space-around;
-    gap: 86px;
-  }
-  .gold-pottery__description {
-    padding-top: 235px;
-    max-width: 388px;
-  }
-  .details__orange-ceramic {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    gap: 86px;
-  }
-  .orange-ceramic__description {
-    padding-top: 100px;
-    max-width: 388px;
   }
 }

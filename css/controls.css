@@ -1,5 +1,5 @@
 .container {
-  max-width: 1160px;
+  max-width: 1190px;
   width: 100%;
   margin: auto;
   padding: 0px 15px;
@@ -30,6 +30,13 @@ h3 span {
   right: 16.84%;
   top: 12.5px;
 }
+h4 {
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--h4-text-color);
+}
 p {
   font-family: 'Libre Franklin';
   font-weight: 400;
@@ -39,6 +46,7 @@ p {
 }
 .button {
   background-color: var(--span-text-color);
+  border: var(--span-text-color);
   padding: 20px 37px;
   height: 62px;
   width: 201px;

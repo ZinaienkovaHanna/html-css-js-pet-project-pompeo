@@ -47,7 +47,7 @@
             <img class="card__image" src="${product.image}" alt="${product.title}" />
             <h4 class="card__title">${product.title}</h4>
             <p class="card__price">$ ${product.price} USD</p>
-            <button class="card__button">Add to Cart</button>
+            <button class="card__button button">Add to Cart</button>
         </article>`;
     }
   }
