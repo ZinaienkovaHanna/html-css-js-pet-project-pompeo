@@ -1,0 +1,67 @@
+.product-categories__titles {
+  text-align: center;
+  padding-top: 136px;
+}
+.circle__vases,
+.circle__mugs,
+.circle__plates {
+  background: #e4b366;
+  border: 30px solid rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  height: 240px;
+  width: 240px;
+  margin: 30px auto;
+}
+.circle__vases img,
+.circle__mugs img,
+.circle__plates img {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 25% auto;
+}
+.circle__vases p,
+.circle__mugs p,
+.circle__plates p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--button-text-color);
+  margin-top: -45px;
+}
+.circle__mugs {
+  background: #f05b10;
+}
+.circle__plates {
+  background: #a21010;
+}
+@media (min-width: 992px) {
+  .product-categories__circle {
+    display: flex;
+    padding-top: 30px;
+  }
+}
+.description__text {
+  padding: 30px 0px;
+}
+.description__text p {
+  padding-top: 16px;
+}
+@media (min-width: 992px) {
+  .product-categories__description {
+    display: flex;
+    gap: 90px;
+  }
+  .description__text h3 {
+    max-width: 432px;
+  }
+}
+@media (min-width: 1160px) {
+  .product-categories__description {
+    display: flex;
+    gap: 132px;
+  }
+}
