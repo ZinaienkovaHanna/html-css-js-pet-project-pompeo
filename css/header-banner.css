@@ -2,10 +2,13 @@
   background-image: url(../img/header/background-banner.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  min-height: 100vh;
+  min-height: 100%;
 }
 h1 {
   padding-top: 20%;
+}
+.banner__button {
+  margin-bottom: 20%;
 }
 .banner__content h3 {
   font-size: 48px;
@@ -41,7 +44,7 @@ h1 {
   .banner__image {
     display: block;
     flex: 0 1 45%;
-    margin-top: 20%;
+    margin-top: 15%;
   }
 }
 @media (min-width: 1160px) {
@@ -51,7 +54,7 @@ h1 {
   .banner__image {
     flex: 0 1 55%;
   }
-  h1 {
-    padding-top: 50%;
+  .banner__image {
+    margin-top: 7%;
   }
 }
