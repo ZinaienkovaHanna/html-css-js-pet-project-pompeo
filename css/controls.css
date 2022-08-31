@@ -37,6 +37,14 @@ h4 {
   line-height: 26px;
   color: var(--h4-text-color);
 }
+h5 {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--h3-text-color);
+}
 p {
   font-family: 'Libre Franklin';
   font-weight: 400;
@@ -56,4 +64,7 @@ p {
   line-height: 22px;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+.button:hover {
+  color: var(--h3-text-color);
 }

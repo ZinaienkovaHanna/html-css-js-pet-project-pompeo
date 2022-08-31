@@ -1,0 +1,35 @@
+.pompeo-pottery {
+  background-image: url(../img/pompeo-pottery/pompeo-pottery-background.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 471px;
+  margin-top: 120px;
+}
+/* .pompeo-pottery__content {
+  max-width: 260px;
+} */
+.pompeo-pottery h2 {
+  padding-top: 121px;
+}
+.pompeo-pottery h3 {
+  font-size: 36px;
+  line-height: 46px;
+  padding: 7px 0px 13px 0px;
+}
+.pompeo-pottery p {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.pompeo-pottery__content p > a {
+  color: var(--text-color);
+}
+.pompeo-pottery__content p > a:hover {
+  text-decoration: underline;
+  color: var(--span-text-color);
+}
+.pompeo-pottery p:nth-last-child(2) {
+  padding-bottom: 30px;
+}

@@ -29,6 +29,7 @@ img {
   --vertical-line-color: rgba(235, 235, 235, 1);
   --button-text-color: rgba(255, 255, 255, 1);
   --background-color: rgba(245, 245, 245, 1);
+  --background-footer-color: rgba(219, 219, 219, 0.1);
   font-family: 'Poppins';
   scroll-behavior: smooth;
 }

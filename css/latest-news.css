@@ -1,0 +1,53 @@
+.latest-news {
+  text-align: center;
+  margin-top: 120px;
+}
+.latest-news__image img {
+  max-width: 80px;
+  max-height: 80px;
+  margin: auto;
+}
+.latest-news h2 {
+  padding: 40px 0px 20px 0px;
+}
+.latest-news h3 {
+  font-weight: 400;
+}
+.latest-news form {
+  margin-top: 77px;
+}
+[placeholder] {
+  text-align: center;
+  min-width: 320px;
+  min-height: 62px;
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+input {
+  border: 1px solid #ebebeb;
+}
+.form-button {
+  background-color: var(--h3-text-color);
+  border: var(--h3-text-color);
+  margin-top: 20px;
+}
+.form-button:hover {
+  color: var(--span-text-color);
+}
+#contact-form-status {
+  margin-top: 20px;
+}
+.sing-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+.sing-up__logo {
+  width: 13px;
+  height: 13px;
+  background: #8534ff;
+}
