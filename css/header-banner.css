@@ -5,10 +5,10 @@
   min-height: 100%;
 }
 h1 {
-  padding-top: 20%;
+  padding-top: 40%;
 }
 .banner__button {
-  margin-bottom: 20%;
+  margin-bottom: 40%;
 }
 .banner__content h3 {
   font-size: 48px;
@@ -44,7 +44,7 @@ h1 {
   .banner__image {
     display: block;
     flex: 0 1 45%;
-    margin-top: 15%;
+    margin-top: 25%;
   }
 }
 @media (min-width: 1160px) {
@@ -55,6 +55,6 @@ h1 {
     flex: 0 1 55%;
   }
   .banner__image {
-    margin-top: 7%;
+    margin-top: 15%;
   }
 }
