@@ -1,12 +1,12 @@
 .product-categories__titles {
   text-align: center;
-  padding-top: 136px;
+  padding-top: 60px;
 }
 .circle__vases,
 .circle__mugs,
 .circle__plates {
-  background: #e4b366;
-  border: 30px solid rgba(0, 0, 0, 0.05);
+  background: var(--background-vases-color);
+  border: 30px solid var(--border-circle-color);
   border-radius: 50%;
   height: 240px;
   width: 240px;
@@ -33,10 +33,10 @@
   margin-top: -45px;
 }
 .circle__mugs {
-  background: #f05b10;
+  background: var(--background-mugs-color);
 }
 .circle__plates {
-  background: #a21010;
+  background: var(--background-plates-color);
 }
 @media (min-width: 992px) {
   .product-categories__circle {
@@ -61,7 +61,7 @@
   .product-categories__description {
     display: flex;
     gap: 90px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
   }
   .description__text h3 {
     max-width: 432px;

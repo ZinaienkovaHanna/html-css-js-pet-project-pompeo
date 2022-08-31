@@ -1,15 +1,25 @@
 .product-categories__details hr {
   border-top: 1px solid var(--vertical-line-color);
 }
+.details__gold-pottery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details__orange-ceramic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .gold-pottery__background {
   height: 220px;
-  width: 320px;
+  width: 300px;
   background-color: var(--background-color);
   margin-top: 220px;
 }
 .orange-ceramic__background {
   height: 220px;
-  width: 320px;
+  width: 300px;
   background-color: var(--background-color);
   margin-top: 85px;
 }
@@ -17,7 +27,7 @@
   width: 250px;
   height: 509px;
   margin-top: -365px;
-  margin-left: 35px;
+  margin-left: 25px;
 }
 .gold-pottery__description p,
 .orange-ceramic__description p {
@@ -29,10 +39,10 @@
   line-height: 34px;
 }
 .orange-ceramic__image img {
-  width: 350px;
-  height: 417px;
+  width: 310px;
+  height: 370px;
   margin-top: -319px;
-  margin-left: -15px;
+  margin-left: -5px;
 }
 .product-categories__details a {
   font-weight: 700;
@@ -60,10 +70,14 @@
   .orange-ceramic__image img {
     margin-left: 75px;
   }
+  .orange-ceramic__image img {
+    width: 350px;
+    height: 417px;
+  }
 }
 @media (min-width: 992px) {
   .details__gold-pottery {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     gap: 86px;
   }
@@ -72,7 +86,7 @@
     max-width: 388px;
   }
   .details__orange-ceramic {
-    display: flex;
+    flex-direction: row;
     flex-direction: row-reverse;
     justify-content: space-between;
     gap: 86px;

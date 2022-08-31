@@ -7,16 +7,11 @@
   text-align: center;
 }
 .online-store__title h2 {
-  padding-top: 120px;
+  padding-top: 60px;
 }
 .online-store__title h3 {
   padding: 16px 0px 60px 0px;
 }
-/* .online-store__cards {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
 .card__image {
   max-width: 371px;
 }
@@ -31,7 +26,7 @@
   padding-bottom: 20px;
 }
 .card__button {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 @media (min-width: 820px) {
   .online-store__cards {

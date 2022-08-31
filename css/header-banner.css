@@ -11,6 +11,7 @@ h1 {
   font-size: 48px;
   line-height: 58px;
   padding: 12px 0px;
+  max-width: 300px;
 }
 .banner__content p {
   padding-bottom: 52px;
@@ -24,7 +25,10 @@ h1 {
 }
 @media (min-width: 768px) {
   h1 {
-    padding-top: 192px;
+    padding-top: 120px;
+  }
+  .banner__content h3 {
+    max-width: 600px;
   }
 }
 @media (min-width: 992px) {
@@ -32,12 +36,12 @@ h1 {
     display: flex;
   }
   .banner__content {
-    flex: 0 1 45%;
+    flex: 0 1 55%;
   }
   .banner__image {
     display: block;
-    flex: 0 1 55%;
-    margin-top: 127px;
+    flex: 0 1 45%;
+    margin-top: 100px;
   }
 }
 @media (min-width: 1160px) {
@@ -48,6 +52,6 @@ h1 {
     flex: 0 1 55%;
   }
   .banner__image {
-    margin-top: 160px;
+    margin-top: 90px;
   }
 }

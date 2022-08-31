@@ -28,6 +28,10 @@ img {
   --span-text-color: rgba(172, 19, 19, 1);
   --vertical-line-color: rgba(235, 235, 235, 1);
   --button-text-color: rgba(255, 255, 255, 1);
+  --border-circle-color: rgba(0, 0, 0, 0.05);
+  --background-plates-color: rgba(162, 16, 16, 1);
+  --background-mugs-color: rgba(240, 91, 16, 1);
+  --background-vases-color: rgba(228, 179, 102, 1);
   --background-color: rgba(245, 245, 245, 1);
   --background-footer-color: rgba(219, 219, 219, 0.1);
   font-family: 'Poppins';

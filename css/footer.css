@@ -1,10 +1,10 @@
 .footer {
   background-color: var(--background-footer-color);
-  min-height: 600px;
-  margin-top: 162px;
+  min-height: 420px;
+  margin-top: 60px;
 }
 .footer__text {
-  padding-top: 107px;
+  padding-top: 60px;
 }
 .footer__text img {
   height: 40px;

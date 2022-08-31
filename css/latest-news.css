@@ -1,6 +1,6 @@
 .latest-news {
   text-align: center;
-  margin-top: 120px;
+  margin-top: 60px;
 }
 .latest-news__image img {
   max-width: 80px;
@@ -14,7 +14,7 @@
   font-weight: 400;
 }
 .latest-news form {
-  margin-top: 77px;
+  margin-top: 30px;
 }
 [placeholder] {
   text-align: center;
