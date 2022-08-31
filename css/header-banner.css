@@ -5,7 +5,7 @@
   min-height: 100vh;
 }
 h1 {
-  padding-top: 60px;
+  padding-top: 20%;
 }
 .banner__content h3 {
   font-size: 48px;
@@ -24,9 +24,9 @@ h1 {
   display: none;
 }
 @media (min-width: 768px) {
-  h1 {
+  /* h1 {
     padding-top: 120px;
-  }
+  } */
   .banner__content h3 {
     max-width: 600px;
   }
@@ -41,7 +41,7 @@ h1 {
   .banner__image {
     display: block;
     flex: 0 1 45%;
-    margin-top: 100px;
+    margin-top: 20%;
   }
 }
 @media (min-width: 1160px) {
@@ -51,7 +51,7 @@ h1 {
   .banner__image {
     flex: 0 1 55%;
   }
-  .banner__image {
-    margin-top: 90px;
+  h1 {
+    padding-top: 50%;
   }
 }
