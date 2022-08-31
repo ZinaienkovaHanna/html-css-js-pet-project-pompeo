@@ -18,7 +18,7 @@
 }
 [placeholder] {
   text-align: center;
-  min-width: 320px;
+  max-width: 320px;
   min-height: 62px;
   font-family: 'Libre Franklin';
   font-weight: 400;
