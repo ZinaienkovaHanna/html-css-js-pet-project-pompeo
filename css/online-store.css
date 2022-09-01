@@ -28,6 +28,17 @@
 .card__button {
   margin-bottom: 30px;
 }
+.online-store__button {
+  margin-top: 20px;
+}
+.online-store__button a {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
 @media (min-width: 820px) {
   .online-store__cards {
     display: grid;
