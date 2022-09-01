@@ -5,10 +5,10 @@
   min-height: 100%;
 }
 h1 {
-  padding-top: 40%;
+  padding-top: 20%;
 }
-.banner__button {
-  margin-bottom: 40%;
+.banner__content {
+  padding-bottom: 10%;
 }
 .banner__content h3 {
   font-size: 48px;
@@ -35,6 +35,12 @@ h1 {
   }
 }
 @media (min-width: 992px) {
+  /* h1 {
+    padding-top: 40%;
+  }
+  .banner__content {
+    margin-bottom: 20%;
+  } */
   .background__banner .container {
     display: flex;
   }
@@ -44,7 +50,7 @@ h1 {
   .banner__image {
     display: block;
     flex: 0 1 45%;
-    margin-top: 25%;
+    margin-top: 15%;
   }
 }
 @media (min-width: 1160px) {
@@ -55,6 +61,6 @@ h1 {
     flex: 0 1 55%;
   }
   .banner__image {
-    margin-top: 15%;
+    margin-top: 7%;
   }
 }

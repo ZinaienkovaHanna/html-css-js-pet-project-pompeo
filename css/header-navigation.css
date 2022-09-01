@@ -76,28 +76,6 @@ body.noscroll {
   text-decoration: underline;
   color: var(--span-text-color);
 }
-.navigation__cart {
-  display: flex;
-  justify-content: center;
-}
-.navigation__cart a {
-  display: flex;
-  font-family: 'Libre Franklin';
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: var(--h3-text-color);
-  text-align: center;
-  gap: 4px;
-}
-.navigation__cart a:hover {
-  text-decoration: underline;
-  color: var(--span-text-color);
-}
-.navigation__cart img {
-  max-width: 18.59px;
-  max-height: 20.01px;
-}
 @media (min-width: 992px) {
   .navigation__burger {
     display: none;
@@ -110,7 +88,6 @@ body.noscroll {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 45%;
   }
   .navigation__list {
     position: relative;
@@ -129,13 +106,7 @@ body.noscroll {
     letter-spacing: 2px;
     text-transform: uppercase;
   }
-  .navigation__cart {
-    min-height: 38px;
-    min-width: 96px;
-    border-left: 1px solid var(--vertical-line-color);
-    height: 38px;
-  }
-  .navigation__cart a {
-    padding-top: 10%;
+  .navigation__link span {
+    color: var(--span-text-color);
   }
 }
